@@ -8,3 +8,4 @@ b = a[a.Origin == 'SFO']
 c = b.head(3)
 c.to_csv (r'/home/clook/asm1/first3sfo.csv', index = False, header = True, columns = ['ArrDelay'])
 
+print('Chun Ching Look')
